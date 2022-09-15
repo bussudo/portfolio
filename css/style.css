@@ -128,12 +128,24 @@ header {
 
 .contact-text {
   margin-left: 800px;
+  width: 200px;
 }
 
 #container-img {
   margin: 0px;
+  width: 200px;
 }
 #container-text {
+  display: flex;
+  
+  margin-top: 30px;
+}
+
+#container-img2 {
+  margin: 0px;
+  width: 200px;
+}
+#container-text2 {
   display: flex;
   
   margin-top: 30px;
@@ -157,6 +169,12 @@ footer {
   background: #13293d;
   color: #fff;
   margin-top: auto;
+}
+
+.project{
+  width: 45%;
+  float: left;
+  padding-right: 2%;
 }
 
 /* add responsiveness */
